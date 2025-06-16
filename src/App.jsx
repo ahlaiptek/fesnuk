@@ -1,12 +1,9 @@
 import "./index.css";
+import Dashboard from "./pages/Dashboard";
 
 function App() {
   return (
-    <>
-      <div className="bg-slate-950">
-        <h1 className="text-center text-white">Hello Tailwind CSS!</h1>
-      </div>
-    </>
+    <Dashboard/>
   );
 }
 
