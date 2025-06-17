@@ -2,7 +2,7 @@ import IconNav from "../elements/IconNav";
 
 export default function Header() {
   return (
-    <header className="bg-white p-4 border-b border-gray-200">
+    <header className="bg-white p-4 border-b border-gray-200 shadow">
       <div className="max-w-full mx-auto flex items-center justify-between">
         <div className="text-xl font-bold text-red-500">
           Fesnuk

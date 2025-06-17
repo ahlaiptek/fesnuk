@@ -35,7 +35,7 @@ function Logo() {
 
 const SideBar = () => {
   return (
-    <div className="min-h-screen shadow px-3">
+    <div className="min-h-screen shadow px-3 shrink-0">
       <Logo/>
       <FilterButton />
     </div>
