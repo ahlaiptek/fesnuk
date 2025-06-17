@@ -1,21 +1,18 @@
-import { useContext, useState } from "react";
+import { useState } from "react";
 import SideBar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
 import Banner from "../components/Banner";
 import Card from "../components/CardProduct";
 import products from "../assets/dataProduct";
 import Popup from "../components/Popup";
-import AppContext from "../context/AppContext";
 
 const Dashboard = () => {
-  const context = useContext(AppContext);
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [isPopupOpen, setIsPopupOpen] = useState(false);
 
   const handleCardClick = (product) => {
     setSelectedProduct(product);
     setIsPopupOpen(true);
-    context.productsSelected.push(product);
   };
 
   const handleClosePopup = () => {

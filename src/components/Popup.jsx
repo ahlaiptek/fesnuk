@@ -1,8 +1,13 @@
+import { useContext } from "react";
+import AppContext from "../context/AppContext";
+
 export default function Popup({ product, onClose }) {
+  const context = useContext(AppContext);
   if (!product) return null; // Jangan tampilkan jika tidak ada produk
 
   const handleBuyNow = () => {
     alert('Berhasl menambahkan ke keranjang!');
+    context.productsSelected.push(product);
   };
 
   return (
