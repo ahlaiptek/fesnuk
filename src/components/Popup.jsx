@@ -1,8 +1,8 @@
 export default function Popup({ product, onClose }) {
   if (!product) return null; // Jangan tampilkan jika tidak ada produk
-  
+
   const handleBuyNow = () => {
-    alert('Anda akan membeli produknya');
+    alert('Berhasl menambahkan ke keranjang!');
   };
 
   return (
