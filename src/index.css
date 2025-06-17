@@ -3,3 +3,9 @@
 *{
     /* border: 1px solid red; */
 }
+
+
+.container-card{
+    grid-template-columns: repeat(auto-fit, minmax(192px, 192px));
+    width: 100%;
+}
