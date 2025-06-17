@@ -1,6 +1,6 @@
 import IconNav from "../elements/IconNav";
 
-export default function Header() {
+export default function Navbar() {
   return (
     <header className="bg-white p-4 border-b border-gray-200 shadow">
       <div className="max-w-full mx-auto flex items-center justify-between">

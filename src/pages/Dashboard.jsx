@@ -1,5 +1,5 @@
 import SideBar from "../components/Sidebar";
-import Header from "../components/Header";
+import Navbar from "../components/Navbar";
 import Banner from "../components/Banner";
 import Card from "../components/CardProduct";
 import products from "../assets/dataProduct";
@@ -7,7 +7,7 @@ import products from "../assets/dataProduct";
 const Dashboard = () => {
   return (
     <>
-      <Header />
+      <Navbar />
       <div className="flex">
         <SideBar />
         <div className="relative w-full bg-stone-100">
